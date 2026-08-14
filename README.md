@@ -1,1 +1,1 @@
-# desktop_CV_creator
+# desktop_cv_creator
