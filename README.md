@@ -1,1 +1,1 @@
-# desktop_cv_creator
+# cv-creator-app--desktop
