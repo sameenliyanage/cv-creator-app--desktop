@@ -1,0 +1,72 @@
+.main-form{
+    -fx-background-color: #fff;
+    -fx-border-color: #000;
+    -fx-border-width: 0.4px 0.4px 0.4px 0.4px;
+}
+
+.close-btn{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+}
+
+.close-btn:hover{
+    -fx-background-color: #ff0016;
+}
+
+.back-btn{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+}
+
+.back-btn:hover{
+    -fx-background-color: #0072ff;
+}
+
+.minimize-btn{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+}
+
+.minimize-btn:hover{
+    -fx-background-color: #0072ff;
+}
+
+.textfield{
+    -fx-background-color:linear-gradient(to bottom, #efefef, #eee);
+    -fx-background-radius:4px;
+    -fx-border-color:#000;
+    -fx-border-width:0.4px;
+    -fx-border-radius:4px;
+    -fx-font-size:13px;
+    -fx-font-family:"Arial";
+}
+
+.textfield:focused{
+    -fx-background-color:#fff;
+    -fx-border-color:linear-gradient(to bottom right, #272b3f, #256b51);
+    -fx-border-width:0.8px;
+}
+
+.register-btn{
+    -fx-background-color:linear-gradient(to bottom, #278f96,#2d645f);
+    -fx-background-radius:5px;
+    -fx-text-fill:#fff;
+    -fx-font-size:14px;
+    -fx-font-family:"Arial";
+    -fx-cursor:hand;
+}
+
+.register-btn:hover{
+    -fx-background-color:linear-gradient(to bottom, #21a7ae,#368981);
+}
+
+.signin-btn{
+    -fx-text-fill: #5185c5;
+    -fx-underline: false;
+    -fx-border-color: transparent;
+}
+
+.signin-btn:hover{
+    -fx-text-fill: #7fa9fd;
+    -fx-underline: true;
+}

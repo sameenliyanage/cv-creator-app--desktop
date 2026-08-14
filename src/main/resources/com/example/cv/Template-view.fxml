@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cv.dashboardController">
+   <children>
+      <AnchorPane fx:id="rightForm_Temp1" prefHeight="570.0" prefWidth="624.0" styleClass="right-form" stylesheets="@Dashboard.css">
+         <children>
+            <ScrollPane hbarPolicy="NEVER" layoutX="18.0" layoutY="28.0" prefHeight="525.0" prefWidth="643.0" styleClass="scroll-view" stylesheets="@Dashboard.css">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="840.0" prefWidth="628.0" styleClass="side-view" stylesheets="@Dashboard.css">
+                     <children>
+                        <Button fx:id="temp1btn" contentDisplay="TOP" graphicTextGap="0.0" layoutX="80.0" layoutY="30.0" mnemonicParsing="false" onAction="#selectTemplate" text="Default1">
+                           <graphic>
+                              <ImageView fx:id="CV1" fitHeight="215.0" fitWidth="175.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../../../../images/CV_1.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button fx:id="temp2btn" contentDisplay="TOP" graphicTextGap="0.0" layoutX="360.0" layoutY="30.0" mnemonicParsing="false" text="Default2">
+                           <graphic>
+                              <ImageView fx:id="CV2" fitHeight="215.0" fitWidth="175.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../../../../images/CV_2.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button fx:id="temp3btn" contentDisplay="TOP" graphicTextGap="0.0" layoutX="80.0" layoutY="300.0" mnemonicParsing="false" text="Default3">
+                           <graphic>
+                              <ImageView fx:id="CV3" fitHeight="215.0" fitWidth="175.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../../../../images/CV_3.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button fx:id="temp4btn" contentDisplay="TOP" graphicTextGap="0.0" layoutX="360.0" layoutY="300.0" mnemonicParsing="false" text="Default4">
+                           <graphic>
+                              <ImageView fx:id="CV4" fitHeight="215.0" fitWidth="175.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../../../../images/CV_4.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button fx:id="temp5btn" contentDisplay="TOP" graphicTextGap="0.0" layoutX="80.0" layoutY="570.0" mnemonicParsing="false" text="Default5">
+                           <graphic>
+                              <ImageView fx:id="CV5" fitHeight="215.0" fitWidth="175.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../../../../images/CV_5.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button fx:id="temp6btn" contentDisplay="TOP" graphicTextGap="0.0" layoutX="360.0" layoutY="570.0" mnemonicParsing="false" text="Default6">
+                           <graphic>
+                              <ImageView fx:id="CV6" fitHeight="215.0" fitWidth="175.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../../../../images/CV_6.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </ScrollPane>
+            <Button fx:id="closeBtn1" layoutX="635.0" layoutY="1.0" mnemonicParsing="false" onAction="#closeBtn1Click" styleClass="close-btn" stylesheets="@Dashboard.css">
+               <graphic>
+                  <FontAwesomeIcon glyphName="CLOSE" />
+               </graphic>
+            </Button>
+            <Label layoutX="18.0" layoutY="4.0" text=", choose your template">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="15.0" />
+               </font>
+               <graphic>
+                  <Label fx:id="usernameLabel" onDragDetected="#displayUsername" text="Hello">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+               </graphic>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
