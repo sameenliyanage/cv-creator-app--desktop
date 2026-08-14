@@ -1,0 +1,140 @@
+.main-form{
+    -fx-background-color: #6dd5c6;
+    -fx-padding: 0.6px -0.5px -0.5px 0.6px;
+}
+
+.top-form{
+    -fx-background-color: linear-gradient(to bottom, #0f8083,#2d645f);
+    -fx-border-color: #000;
+    -fx-border-width: 0.4px 0.4px 0px 0.4px;
+}
+
+.left-form{
+    -fx-background-color: linear-gradient(to bottom, #21a7ae,#2d645f);
+    -fx-border-color: #000;
+    -fx-border-width: 0.4px 0.4px 0.4px 0.4px;
+}
+
+.right-form{
+    -fx-background-color: #6dd5c6;
+    -fx-border-color: #000;
+    -fx-border-width: 0.4px 0.4px 0.4px 0.4px;
+}
+
+.top-card{
+    -fx-background-color: #0a5a55;
+    -fx-background-radius: 50px;
+    -fx-border-color:#000;
+    -fx-border-radius:50px;
+}
+
+.close-btn{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+}
+
+.close-btn:hover{
+    -fx-background-color:#ff0016;
+}
+
+.back-btn{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+}
+
+.back-btn:hover{
+    -fx-background-color: #0072ff;
+}
+
+.minimize-btn{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+}
+
+.minimize-btn:hover{
+    -fx-background-color: #0072ff;
+}
+
+.left-panel-btn{
+    -fx-background-color:transparent;
+    -fx-border-color: #0a5a55;
+    -fx-border-radius: 10px;
+    -fx-cursor:hand;
+}
+
+.left-panel-btn:hover{
+    -fx-background-color: linear-gradient(to top, #21a7ae, #0a5a55);
+    -fx-background-radius:12px;
+    -fx-cursor:hand;
+}
+
+.logout-btn{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+}
+
+.logout-btn:hover{
+    -fx-background-color: #0a5a55;
+    -fx-background-radius: 10px;
+}
+
+.card-btn{
+    -fx-background-color: #7fa9fd;
+    -fx-background-radius: 50px;
+    -fx-cursor:hand;
+}
+
+.card-btn:hover{
+    -fx-background-color: #0a6ae3;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 47px;
+    -fx-border-width: 3px;
+    -fx-border-color: #7fa9fd;
+}
+
+.save_profile_btn{
+    -fx-background-color:transparent;
+    -fx-border-radius: 15px;
+    -fx-border-color: #fff;
+    -fx-cursor:hand;
+}
+
+.save_profile_btn:hover{
+    -fx-background-color: #0a5a55;
+    -fx-background-radius: 10px;
+}
+
+.side-view{
+    -fx-background-color: #6dd5c6;
+}
+
+.table-side-view{
+    -fx-background-color: #6dd5c6;
+    -fx-border-color: #ffff;
+    -fx-border-width: 0.4px 0.4px 0.4px 0.4px;
+}
+
+.scroll-view{
+    -fx-background-color: transparent;
+    -fx-border-color: #ffff;
+    -fx-border-width: 0.4px 0px 0.4px 0.4px;
+}
+
+.table-view{
+    -fx-background-color: transparent;
+    -fx-border-color: #fff;
+    -fx-border-width: 2px;
+    -fx-border-radius: 0px 0px 8px 8px;
+    -fx-padding: 0;
+}
+
+.table-view .table-column{
+    -fx-background-color: #0a5a55;
+    -fx-text-fill: white;
+    -fx-background-insets: 0 0 0 0;
+    -fx-alignment: CENTER;
+}
+
+.table-view .column-header .label{
+    -fx-text-fill: white;
+}
